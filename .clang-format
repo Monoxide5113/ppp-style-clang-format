@@ -1,0 +1,26 @@
+# This .clang-format configuration is based on Bjarne Stroustrup's PPP (Programming: Principles and Practice Using C++) Style Guide.
+# Reference: https://www.stroustrup.com/Programming/PPP-style.pdf
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: MultiLine
+BreakBeforeBinaryOperators: All
+BreakBeforeBraces: Stroustrup
+BreakConstructorInitializers: BeforeColon
+ColumnLimit: 80
+ConstructorInitializerIndentWidth: 4
+IndentCaseLabels: false
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Left
+ReferenceAlignment: Pointer
+SpaceAfterTemplateKeyword: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+UseTab: Never
